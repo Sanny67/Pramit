@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    height: 100vh;
+    /*background: linear-gradient(#ff005c, #ff00cc);*/
+    background: #ff005c;
+    position:relative;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Helvetica;
+    color: white;
+    margin: 0;
+    padding-top: 50px
+}
+#block1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    display: inline-block;
+}
+#block2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+#block3{
+    height: 200px;
+    width: 200px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+.wave{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 141px;
+    background-image: url("wave3.png");
+    /*animation: wavey 10s linear infinite;*/
+}
+@keyframes wavey{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 1360px;
+    }
+}
